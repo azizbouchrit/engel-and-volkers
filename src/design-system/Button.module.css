@@ -1,0 +1,26 @@
+.button {
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  font-weight: 500;
+  color: var(--white);
+  min-width: min-content;
+}
+
+.button:hover {
+  background: var(--primary-dark);
+}
+
+.button:active {
+  background: var(--primary-color);
+}
+
+.disabled,
+.disabled:hover {
+  background: var(--secondary-light);
+  cursor: not-allowed;
+  color: var(--secondary-dark);
+  border-color: var(--secondary-text);
+}

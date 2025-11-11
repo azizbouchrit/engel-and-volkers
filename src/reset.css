@@ -1,0 +1,110 @@
+/* Reset CSS */
+
+/* Remove default margins and padding for all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default links styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default table borders */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default form styles */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Make sure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reset font size for headings and body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+/* Reset some common HTML5 elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Reset some spacing for preformatted text */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+/* Reset scroll behavior */
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,19 @@
+#root {
+  height: 100vh;
+}
+
+.app {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  height: 100vh;
+}
+
+.mainContent {
+  margin: 0 auto;
+  /* padding: 0 24px 4px; */
+  width: 100%;
+  height: calc(100% - 56px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
